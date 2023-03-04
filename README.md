@@ -100,13 +100,13 @@ Make a pull request to the original repository: This step involves going to the 
 
 
 
-## Esthetics:
+## Aesthetics:
 
-![Esthetics](./src/assets/Esthetics.png)
+![Aesthetics](./src/assets/Aesthetics.png)
 
-![Esthetics](./src/assets/Esthetic2.png)
+![Aesthetics](./src/assets/Aesthetic2.png)
 
-![Esthetics](./src/assets/Esthetic3.png)
+![Aesthetics](./src/assets/Aesthetic3.png)
 
 ## Resources:
 
