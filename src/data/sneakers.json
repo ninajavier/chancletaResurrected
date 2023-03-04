@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Balenciaga Grey Joint",
+        "style": "Sneaker",
+        "type": "Luxury",
+        "price": "1800",
+        "class": "Womens",
+        "image-1": "src/Assets/chancleta-bal-xpand-wmns-2.webp",
+        "image-2": "src/Assets/chancleta-bal-xpand-wmns.webp",
+        "id": "1"
+    },
+    {
+        "name": "MoonBoot Chartreuse",
+        "style": "SnowBoot",
+        "type": "Luxury",
+        "price": "200",
+        "class": "Mens",
+        "image-1": "src/Assets/chancleta-mnbt-mens-2.webp",
+        "image-2": "src/Assets/chancleta-mnbt-mens.webp",
+        "id": "2"
+    },
+    {
+        "name": "MoonBoot Greige",
+        "style": "SnowBoot",
+        "type": "Luxury",
+        "price": "170",
+        "class": "Womens",
+        "image-1": "src/Assets/chancleta-mnbt-wmns-2.webp",
+        "image-2": "src/Assets/chancleta-mnbt-wmns.webp",
+        "id": "3"
+    },
+    {
+        "name": "Cactus Nike",
+        "style": "Sneaker",
+        "type": "Eco-Friendly",
+        "price": "750",
+        "class": "Mens",
+        "image-1": "src/Assets/chancleta-nike-cactus-2.webp",
+        "image-2": "src/Assets/chancleta-nike-cactus.webp",
+        "id": "4"
+    },
+    {
+        "name": "Off-White Vapor Nike",
+        "style": "Sneaker",
+        "type": "Basic",
+        "price": "900",
+        "class": "Womens",
+        "image-1": "src/Assets/chancleta-nike-cactus-2.webp",
+        "image-2": "src/Assets/chancleta-nike-cactus.webp",
+        "id": "5"
+    },
+    {
+        "name": "Rick Owens Knee-High",
+        "style": "Sneaker",
+        "type": "Luxury",
+        "price": "1800",
+        "class": "Womens",
+        "image-1": "src/Assets/chancleta-rickowens-wmns-2.webp",
+        "image-2": "src/Assets/chancleta-rickowens-wmns.webp",
+        "id": "6"
+    },
+    {
+        "name": "Travis Jordan Blue",
+        "style": "Sneaker",
+        "type": "Hype",
+        "price": "2400",
+        "class": "Mens",
+        "image-1": "src/Assets/chancleta-travisscott-jordans-2.webp",
+        "image-2": "src/Assets/chancleta-travisscott-jordans.webp",
+        "id": "7"
+    }
+]
