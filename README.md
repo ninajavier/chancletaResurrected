@@ -90,10 +90,10 @@ Make a pull request to the original repository: This step involves going to the 
 ## App Layout: 
 
 
-![Chancleta Layout](./src/Component/ChancletaLayout.png)
+![Chancleta Layout](./src/assets/ChancletaLayout.png)
 
 
-![Chancleta Layout](./src/Component/Chancleta_layout2.png)
+![Chancleta Layout](./src/assets/Chancleta_layout2.png)
 
 
 
@@ -102,11 +102,11 @@ Make a pull request to the original repository: This step involves going to the 
 
 ## Esthetics:
 
-![Esthetics](./src/Component/Esthetics.png)
+![Esthetics](./src/assets/Esthetics.png)
 
-![Esthetics](./src/Component/Esthetic2.png)
+![Esthetics](./src/assets/Esthetic2.png)
 
-![Esthetics](./src/Component/Esthetic3.png)
+![Esthetics](./src/assets/Esthetic3.png)
 
 ## Resources:
 
