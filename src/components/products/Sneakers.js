@@ -6,11 +6,11 @@ function Sneakers({sneakers, handleAddToCart}) {
             {sneakers.map((sneaker) => (
         <>
           <div className="card" key={sneaker.id}>
+          <img className="img" src={sneaker.image1} alt="" />
             <h3>{sneaker.name}</h3>
             <p>Price: ${sneaker.price}</p>
             <p>Style: {sneaker.style}</p>
             <p>Class: {sneaker.class}</p>
-            <img src={sneaker.image_1} alt=""></img>
             <button onClick={() => handleAddToCart(sneaker)} >Add to Cart</button>
         </div>
         </>

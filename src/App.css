@@ -1,38 +1,61 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;400;700&family=Montserrat:wght@100;400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat',  'Helvetica Neue',
+    sans-serif;
+    color: rgb(187, 227, 53);
+    background: rgb(250,250,250);
+    background: radial-gradient(circle, rgba(250,250,250,1) 24%, rgba(255,243,230,1) 98%);
+}
+
+h1, h2, h3 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.cart {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart img {
+  height: 150px;
+  float: left
+}
+
+.img {
+  height: 150px;
+  float: left
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(67, 46, 19);
+  height: 100%;
+  /* float:right */
+}
+
+/* 
+.error {
+  border: 1px solid var(--error);
+  margin: 25px;
+  padding: 25px;
+}
+.error p {
+  color: var(--error);
+  font-family: var(--primary-font);
+  margin: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: rgb(38, 34, 15);
+  text-shadow: 2px 2px 4px rgb(69, 69, 63);
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a:hover {
+  opacity: .5;
+} */

@@ -14,7 +14,7 @@ function Cart({setTotal, cart, total}) {
       <ol>
         {cart.map((sneaker, index) => (
           <li>
-            <img src={sneaker.img} alt={sneaker.name}/>
+            <img src={sneaker.image1} alt={sneaker.name}/>
             <p>
               {sneaker.name}: ${sneaker.price}
             </p>
