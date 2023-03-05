@@ -5,15 +5,15 @@ function Cart({setTotal, cart, total}) {
 
   function removeFromCart(event, sneaker) {
     event.target.parentNode.remove();
-    setTotal(total - sneaker.amount);
+    setTotal(total - sneaker.price);
   }
 
   return (
     <div className="cart">
       <h1>Your Cart</h1>
       <ol>
-        {cart.map((sneaker, index) => (
-          <li>
+        {cart.map((sneaker) => (
+          <li key={sneaker.id}>
             <img src={sneaker.img} alt={sneaker.name}/>
             <p>
               {sneaker.name}: ${sneaker.price}
@@ -27,6 +27,7 @@ function Cart({setTotal, cart, total}) {
           </li>
         ))}
       </ol>
+      <h2>Subtotal: ${total}</h2>
     </div>
   );
 }
