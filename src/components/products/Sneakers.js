@@ -10,7 +10,7 @@ function Sneakers({sneakers, handleAddToCart}) {
             <p>Price: ${sneaker.price}</p>
             <p>Style: {sneaker.style}</p>
             <p>Class: {sneaker.class}</p>
-            <img src={sneaker.image_1} alt=""></img>
+            <img src={sneaker.image1} alt=""></img>
             <button onClick={() => handleAddToCart(sneaker)} >Add to Cart</button>
         </div>
         </>
