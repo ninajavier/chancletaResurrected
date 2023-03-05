@@ -5,8 +5,8 @@
         "type": "Luxury",
         "price": "1800",
         "class": "Womens",
-        "image-1": "src/Assets/chancleta-bal-xpand-wmns-2.webp",
-        "image-2": "src/Assets/chancleta-bal-xpand-wmns.webp",
+        "image1": "src/Assets/chancleta-bal-xpand-wmns-2.webp",
+        "image2": "src/Assets/chancleta-bal-xpand-wmns.webp",
         "id": "1"
     },
     {
@@ -15,8 +15,8 @@
         "type": "Luxury",
         "price": "200",
         "class": "Mens",
-        "image-1": "src/Assets/chancleta-mnbt-mens-2.webp",
-        "image-2": "src/Assets/chancleta-mnbt-mens.webp",
+        "image1": "src/Assets/chancleta-mnbt-mens-2.webp",
+        "image2": "src/Assets/chancleta-mnbt-mens.webp",
         "id": "2"
     },
     {
@@ -25,8 +25,8 @@
         "type": "Luxury",
         "price": "170",
         "class": "Womens",
-        "image-1": "src/Assets/chancleta-mnbt-wmns-2.webp",
-        "image-2": "src/Assets/chancleta-mnbt-wmns.webp",
+        "image1": "src/Assets/chancleta-mnbt-wmns-2.webp",
+        "image2": "src/Assets/chancleta-mnbt-wmns.webp",
         "id": "3"
     },
     {
@@ -35,8 +35,8 @@
         "type": "Eco-Friendly",
         "price": "750",
         "class": "Mens",
-        "image-1": "src/Assets/chancleta-nike-cactus-2.webp",
-        "image-2": "src/Assets/chancleta-nike-cactus.webp",
+        "image1": "src/Assets/chancleta-nike-cactus-2.webp",
+        "image2": "src/Assets/chancleta-nike-cactus.webp",
         "id": "4"
     },
     {
@@ -45,8 +45,8 @@
         "type": "Basic",
         "price": "900",
         "class": "Womens",
-        "image-1": "src/Assets/chancleta-nike-cactus-2.webp",
-        "image-2": "src/Assets/chancleta-nike-cactus.webp",
+        "image1": "src/Assets/chancleta-nike-cactus-2.webp",
+        "image2": "src/Assets/chancleta-nike-cactus.webp",
         "id": "5"
     },
     {
@@ -55,8 +55,8 @@
         "type": "Luxury",
         "price": "1800",
         "class": "Womens",
-        "image-1": "src/Assets/chancleta-rickowens-wmns-2.webp",
-        "image-2": "src/Assets/chancleta-rickowens-wmns.webp",
+        "image1": "src/Assets/chancleta-rickowens-wmns-2.webp",
+        "image2": "src/Assets/chancleta-rickowens-wmns.webp",
         "id": "6"
     },
     {
@@ -65,8 +65,8 @@
         "type": "Hype",
         "price": "2400",
         "class": "Mens",
-        "image-1": "src/Assets/chancleta-travisscott-jordans-2.webp",
-        "image-2": "src/Assets/chancleta-travisscott-jordans.webp",
+        "image1": "src/Assets/chancleta-travisscott-jordans-2.webp",
+        "image2": "src/Assets/chancleta-travisscott-jordans.webp",
         "id": "7"
     }
 ]

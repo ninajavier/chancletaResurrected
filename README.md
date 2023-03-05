@@ -1,5 +1,6 @@
 # Chancleta
 
+test
 
 Chancleta is an exclusive club for fashion enthusiasts who want to stay ahead of the latest trends in sneakers and clothing. To join our community, you must receive an invitation from a current member, which will give you access to special insights into fashion trends and exclusive discounts on select items. As a member of Chancleta, you'll be part of an exclusive group of fashion insiders who are always one step ahead of the fashion curve.
 
@@ -80,6 +81,18 @@ Our platform is designed to provide an elevated fashion experience for our membe
 * git push: This command pushes the changes made in the testing branch to your GitHub repository.
 
 Make a pull request to the original repository: This step involves going to the original repository and creating a pull request with the changes made in the testing branch of your forked repository. This allows the original repository to review your changes and potentially merge them into their repository.
+
+## Order Of Operations:
+
+1. git fetch upstream (to get all updated changes)
+2. Go to your branch
+3. Make changes in your branch
+4. Add and Commit from your branch
+5. git checkout main
+6. git pull
+7. git checkout <your-branch-name>
+8. git merge
+9. git merge main
 
 
 ## App Tree Structure:
