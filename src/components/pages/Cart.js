@@ -1,33 +1,33 @@
 import React from "react";
-import { useState } from "react";
 
-function Cart() {
-const [total, setTotal] = useState(0);
-const [cart, setCart] = useState([]);
 
-  function removeFromCart(event, shoe) {
+function Cart({setTotal, cart, total}) {
+
+  function removeFromCart(event, sneaker) {
     event.target.parentNode.remove();
-    setTotal(total - shoe.amount);
+    setTotal(total - sneaker.price);
   }
 
   return (
-    <div classname="cart">
+    <div className="cart">
       <h1>Your Cart</h1>
       <ol>
-        {cart.map((shoe, index) => (
-          <li>
+        {cart.map((sneaker) => (
+          <li key={sneaker.id}>
+            <img src={sneaker.img} alt={sneaker.name}/>
             <p>
-              {shoe.name}: ${shoe.amount}
+              {sneaker.name}: ${sneaker.price}
             </p>
             <button
-              key={shoe.id}
-              onClick={(event) => removeFromCart(event, shoe)}
+              key={sneaker.id}
+              onClick={(event) => removeFromCart(event, sneaker)}
             >
               Remove from cart
             </button>
           </li>
         ))}
       </ol>
+      <h2>Subtotal: ${total}</h2>
     </div>
   );
 }
